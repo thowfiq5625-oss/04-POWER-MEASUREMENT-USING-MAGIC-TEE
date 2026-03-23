@@ -33,8 +33,6 @@ A magic tee can also be used as a signal combiner. If the signals are fed to bot
 
 If the power flowing into E arm is taken as PE and power flowing out of H-arm as PH thenIsolation(dB) = -10 log10 PH/ PE This assumes that both the collinear arms are match terminated.
 
-
-
 **Power division**
 
 The power fed in either the E or H arm should divide itself equally in both the side arms, when the opposite port is match terminated. If we designate the power entering the E arm as PE and power in side arms as PC1 and PC2 then the ratio of the power coupled in side arms to that entering inthe E-arm is given by the relation.
@@ -63,24 +61,26 @@ power coupled to thecollinear to that in the main arm, in dB. This value is arou
 
 **F.	Observation: ( Include your own Table relevant to the Experiment)**
 
-**Isolation measurement** (Tabulation)
+<img width="1076" height="204" alt="image" src="https://github.com/user-attachments/assets/ffc35e8b-a2c3-4534-9ee2-9b9fcc851645" />
 
-**Measurement of power division** (Tabulation)
+<img width="1080" height="224" alt="image" src="https://github.com/user-attachments/assets/daf889e7-93e8-426a-8243-77ab37678a24" />
+</br>
+**G.	Analysis of Results:**
 
+Isolation = A₁ − A₂ = 20.0 − 1.0 = 19.0 dB.
+Interpretation: only ~1/79 of the power fed into the E-arm appears at the H-arm (good isolation).
+Power division (coupling to collinear arm) = A₁ − A₂ = 20.0 − 17.0 = 3.0 dB.
+Interpretation: input power splits equally between the two collinear arms (each receives ≈ half the power).
 
-**G.	Analysis of Results: (Write your own)**
+**H.	Conclusions:**
 
-(Include sample calculations/Display/plot/typical graph)
-
-**H.	Conclusions: (Write your Own)**
-
-Isolation between E and H arms (dB) = (A1 – A2) dB
-Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
+Isolation between E and H arms ≈ 19 dB,
+power division in the collinear arms ≈ 3 dB (equal split).
+Thus, the experiment executed successfully.
 
 **Precautions:**
-
 •	Check the connections before switching on the kit.
 •	Connections should be done properly.
 •	Observation should be taken properly.
 
-**Result:**
+
